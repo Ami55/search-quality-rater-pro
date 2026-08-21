@@ -25,7 +25,6 @@ function getGeminiClient(): GoogleGenAI | null {
   }
   return ai;
 }
-
 const analysisResponseSchema = {
   type: Type.OBJECT,
   properties: {
