@@ -285,15 +285,15 @@ async function generateWithFallbackAndRetry(prompt: string): Promise<string | nu
         config: {
           responseMimeType: "application/json",
           responseSchema: analysisResponseSchema,
-        }
+          temperature: 0.2,
+        },
       });
-      
+
       if (response && response.text) {
-        console.log(`[Gemini Request] Successfully generated evaluation using "${model}".`);
         return response.text;
       }
     } catch (err: any) {
-      console.warn(`[Gemini Request] Model "${model}" hit capacity or demand limit:`, err?.message || err);
+      console.warn(`[Gemini Request Failed] Model: ${model}, Error: ${err.message}`);
     }
   }
 
