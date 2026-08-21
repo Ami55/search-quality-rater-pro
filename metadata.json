@@ -1,0 +1,8 @@
+{
+  "name": "Search Quality Rater Pro",
+  "description": "Enterprise SEO audit suite calibrated against Google's official Search Quality Evaluator Guidelines (September 11, 2025 edition). Evaluates Page Quality across 21 criteria, E-E-A-T Trust foundation, YMYL standards, 2025 Spam Abuse policies, and Needs Met query intent.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
