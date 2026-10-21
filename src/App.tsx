@@ -1163,7 +1163,7 @@ export default function App() {
           </p>
 
           <p className="text-[11px] text-[#94A3B8] max-w-xl mx-auto pt-2">
-            © 2025 Search Quality Rater Tool. Developed by SEO Girl - Ami. All rights reserved. Not affiliated with or endorsed by Google LLC. The Google Search Quality Evaluator Guidelines are published by Google and referenced here for educational and analytical purposes.
+            © 2026 Search Quality Rater Pro. Developed by <strong>SEO Girl - Ami</strong>. All rights reserved. Not affiliated with or endorsed by Google LLC. The Google Search Quality Evaluator Guidelines are published by Google and referenced here for educational and analytical purposes.
           </p>
         </div>
       </footer>
